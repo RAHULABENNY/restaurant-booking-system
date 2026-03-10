@@ -165,5 +165,5 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", # Your React Vite port
-    "https://silly-paletas-ef466a.netlify.app/"
+    "https://silly-paletas-ef466a.netlify.app"
 ]
