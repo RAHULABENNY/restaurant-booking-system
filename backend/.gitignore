@@ -1,12 +1,10 @@
 # Python
-
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
 
 # Distribution / packaging
-
 .Python
 build/
 develop-eggs/
@@ -24,46 +22,35 @@ var/
 *.egg
 
 # Virtual environments
-
 venv/
 env/
 ENV/
 .venv/
 
-# Django
-
+# Django logs
 *.log
 
-
-# Static files
-
+# Static collected files (keep this ignored)
 staticfiles/
-static/
 
 # Environment variables
-
 .env
 .env.*
 
 # VS Code
-
 .vscode/
 
 # PyCharm
-
 .idea/
 
 # Jupyter Notebook
-
 .ipynb_checkpoints
 
 # OS files
-
 .DS_Store
 Thumbs.db
 
 # Testing
-
 .coverage
 htmlcov/
 .tox/
@@ -71,10 +58,8 @@ htmlcov/
 .pytest_cache/
 
 # MyPy
-
 .mypy_cache/
 
-# Django migrations (optional)
-
+# Optional: ignore compiled migrations but keep init
 */migrations/*.py
-!*/migrations/**init**.py
+!*/migrations/__init__.py
